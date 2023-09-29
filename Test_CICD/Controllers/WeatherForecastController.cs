@@ -18,6 +18,8 @@ namespace Test_CICD.Controllers
             _logger = logger;
         }
 
+
+        //Get Weather Info
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
